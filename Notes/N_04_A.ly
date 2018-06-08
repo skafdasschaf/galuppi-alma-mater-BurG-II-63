@@ -24,7 +24,7 @@ AlmaAltoNotes = {
 			#'((end . (((1 . 16) . (4 4)))))
 		\clef treble
 		\key c \dorian \time 2/4 \autoBeamOff \tempoAlma
-		R2*28 %28
+		\grace s16 R2*28 %28
 		\mvTr \appoggiatura f16\pE^\soloE es8 d32([ c16.)] \appoggiatura es16 d8 c32([ h16.)]
 		c16([ g')] g4. %30
 		\appoggiatura f16 es8 d32([ c16.)] \appoggiatura es16 d8 c32([ h16.)]
@@ -83,11 +83,11 @@ AlmaAltoNotes = {
 		d4 r
 		R2
 		r4 r8 g
-		c,32([ es16.) d32( f16.)] \appoggiatura f8 es4\trill
+		c,16.([^\critnote es32) d16.( f32)] \appoggiatura f8 es4\trill
 		d2 %95
 		R
 		r 4r8 g
-		c,32([ es16.)] d16 f \appoggiatura f8 es4\trill
+		c,16.([ es32)] d16. f32 \appoggiatura f8 es4\trill
 		d4 r
 		R2 %100
 		g8. g,16 g8 r
@@ -188,7 +188,7 @@ AlmaAltoLyrics = \lyricmode {
 	po --
 	_ _ _
 	_ _ pu --
-	lo.
+	lo. %114 finis
 }
 
 % AltoNotes = {

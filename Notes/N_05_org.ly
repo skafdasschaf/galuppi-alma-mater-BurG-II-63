@@ -13,7 +13,7 @@ AlmaOrgano = {
 			#'((end . (((1 . 16) . (4 4)))))
 		\clef bass
 		\key c \dorian \time 2/4 \tempoAlma
-		\mvTr c8\fE-\soloE es f g
+		\grace s16 \mvTr c8\fE-\soloE es f g
 		r c, h g
 		c es f g
 		r c h g

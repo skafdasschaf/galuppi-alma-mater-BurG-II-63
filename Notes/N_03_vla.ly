@@ -14,6 +14,6 @@ AlmaViola = {
 		\clef treble
 % 		\clef alto
 		\key c \dorian \time 2/4 \tempoAlma
-		
+		\grace s16 
 	}
 }
