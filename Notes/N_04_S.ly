@@ -5,18 +5,23 @@
 \version "2.18.0"
 
 SopranoIncipit = \markup {
-	"Soprano" \hspace #-17 \score {
+	"Soprano" \hspace #-16 \score {
 		\new Staff \with {
 			\remove Time_signature_engraver
 		} {
 			\clef soprano s4 \bar empty
 		}
 		\layout { }
-	} \hspace #-1.8
+	} \hspace #-3.0
 }
 
 AlmaSopranoNotes = {
 	\relative c' {
+		\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
 		\clef treble
 		\key c \dorian \time 2/4 \autoBeamOff \tempoAlma
 		

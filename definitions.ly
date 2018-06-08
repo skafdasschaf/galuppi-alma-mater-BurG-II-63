@@ -110,6 +110,8 @@ senzaOrg = \markup { \remark "senza Org." }
 senzaOrgE = \markup { \remarkE "senza Org." }
 vlc = \markup { \remark "Vlc. soli" }
 vlcE = \markup { \remarkE "Vlc. soli" }
+vlnSolo = \markup { \remark "Violoni soli" }
+vlnSoloE = \markup { \remarkE "Violoni soli" }
 bassi = \markup { \remark Bassi }
 bassiE = \markup { \remarkE Bassi }
 tenuto = \markup { \remark ten. }
@@ -251,7 +253,7 @@ tempoAlma = \tempoMarkup "Andantino"
 		\Score
 		\override MetronomeMark.font-series = #'medium
 		\compressFullBarRests
-% 		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
+		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
 	}
 	\context {
 		\StaffGroup

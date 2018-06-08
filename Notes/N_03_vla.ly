@@ -6,6 +6,11 @@
 
 AlmaViola = {
 	\relative c' {
+		\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
 		\clef treble
 % 		\clef alto
 		\key c \dorian \time 2/4 \tempoAlma
