@@ -38,12 +38,12 @@
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \SopranoIncipit
+						\set Staff.instrumentName = \AltoIncipit
 						\override Staff.InstrumentName.self-alignment-Y = ##f
 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Soprano" { \dynamicUp \AlmaSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \AlmaAltoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \AlmaSopranoLyrics
+					\new Lyrics \lyricsto Soprano \AlmaAltoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {

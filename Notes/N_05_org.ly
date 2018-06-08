@@ -53,7 +53,7 @@ AlmaOrgano = {
 		r es, d b
 		r g' as b
 		r es, d b %40
-		r d es as,
+		r d es a,
 		b b' b,4
 		r r8 g'
 		as g g,4
@@ -84,7 +84,7 @@ AlmaOrgano = {
 		r8 g\pE as b
 		r es, d b
 		r g as b
-		r f' d b
+		r es^\critnote d b
 		es r as r %75
 		b b, b r
 		r b' b b
