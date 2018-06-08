@@ -20,8 +20,8 @@ AlmaOrgano = {
 		r es as f %5
 		r g, g' f
 		r es\p as f
-		g g, g4\f
-		r8 b' b b
+		g g, g4
+		r8 b'\f b b
 		b-! b4.\p %10
 		as8-!\f as4.\p
 		g8-!\f g4.\p
@@ -57,7 +57,7 @@ AlmaOrgano = {
 		b b' b,4
 		r r8 g'
 		as g g,4
-		r r8 g\f %45
+		r r8 g %45
 		as as as as
 		as as as as
 		b b b b
