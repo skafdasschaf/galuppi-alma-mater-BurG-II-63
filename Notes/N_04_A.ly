@@ -191,6 +191,20 @@ AlmaAltoLyrics = \lyricmode {
 	lo. %114 finis
 }
 
+TuQuaeAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \autoBeamOff \tempoTuQuae
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #124
+		
+	}
+}
+
+TuQuaeAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

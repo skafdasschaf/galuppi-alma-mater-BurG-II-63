@@ -138,3 +138,13 @@ AlmaViolinoII = {
 		c8 g c,4\fermata \bar "||" %123 finis
 	}
 }
+
+TuQuaeViolinoII = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \tempoTuQuae
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #124
+		
+	}
+}

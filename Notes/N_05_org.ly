@@ -250,15 +250,29 @@ AlmaBassFigures = \figuremode {
 	r <_-> <6> <6 _->
 	<6 4>4 <5 _!>
 	<7 _!>2
-	<4!>
+	<4!> %115
 	<6>
 	q
 	<6 _->4. <\t _!>8
 	<_!>2
-	r
+	r %120
 	r8 <6> r <_->
 	r <6> <6 _-> <_!>
-	r2
+	r2 %123 finis
+}
+
+TuQuaeOrgano = {
+	\relative c {
+		\clef bass
+		\key es \major \time 3/4 \tempoTuQuae
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #124
+		\mvTr es4\fE-\soloE r r
+	}
+}
+
+TuQuaeBassFigures = \figuremode {
+	
 }
 
 % Organo = {

@@ -14,9 +14,54 @@
 #(set-global-staff-size 15.87)
 
 \book {
+% 	\bookpart {
+% 		\header {
+% 			movement = "1 ALMA REDEMPTORIS MATER"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\AlmaViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\AlmaViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\AlmaViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \AltoIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Soprano" { \dynamicUp \AlmaAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \AlmaAltoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\AlmaOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\AlmaBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 80 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "1 ALMA REDEMPTORIS MATER"
+			movement = "2 TU QUAE GENUISTI"
 		}
 		\score {
 			<<
@@ -24,35 +69,33 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\AlmaViolinoI
+							\TuQuaeViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\AlmaViolinoII
+							\TuQuaeViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\AlmaViola
+						\TuQuaeViola
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \AltoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Soprano" { \dynamicUp \AlmaAltoNotes }
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Soprano" { \dynamicUp \TuQuaeAltoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \AlmaAltoLyrics
+					\new Lyrics \lyricsto Soprano \TuQuaeAltoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\AlmaOrgano
+						\TuQuaeOrgano
 					}
 				>>
 				\new FiguredBass {
-					\AlmaBassFigures
+					\TuQuaeBassFigures
 				}
 			>>
 			\layout { }
