@@ -200,11 +200,11 @@ TuQuaeAltoNotes = {
 		R2.*26 %149
 		\mvTr es4\pE^\soloE \tuplet 3/2 4 { es'8([ d c)] b([ as)] g } %150
 		f4 \tuplet 3/2 4 { as8([ g f)] es([ d c)] }
-		b8.([ c'16)] \appoggiatura c8 b4. as8
+		b8.([ c'16)] \appoggiatura c4 b4. as8
 		g32([ as b8.)] b2
 		es,4( \tuplet 3/2 4 { es'8[ d c)] b([ as g)] }
 		f4( \tuplet 3/2 4 { as8[ g f)] es([ d c)] } %155
-		b8.([ c'16] \appoggiatura c8 b4.) as8
+		b8.([ c'16] \appoggiatura c4 b4.) as8
 		g32([ f es8.)] es2
 		c'4 c2
 		b16([ as g f]) es2
@@ -245,11 +245,11 @@ TuQuaeAltoNotes = {
 		R2.*5 %199
 		es,4 \tuplet 3/2 4 { es'8([ d c)] b([ as)] g } %200
 		f4 \tuplet 3/2 4 { as8([ g f)] es([ d c)] }
-		b8.([ c'16)] \appoggiatura c8 b4. as8
-		g32([ as b8.)] b2
+		b8.([ c'16)] \appoggiatura c4 b4. as8
+		g32([ as? b8.)] b2
 		es,4( \tuplet 3/2 4 { es'8[ d c)] b([ as g)] }
 		f4( \tuplet 3/2 4 { as8[ g f)] es([ d c)] } %205
-		b8.([ c'16] \appoggiatura c8 b4.) as8
+		b8.([ c'16] \appoggiatura c4 b4.) as8
 		\appoggiatura as?4 g2.\trill
 		f4 r r
 		b \tuplet 3/2 4 { des8[ c b] as[ g f] }

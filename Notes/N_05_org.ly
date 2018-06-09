@@ -280,7 +280,7 @@ TuQuaeOrgano = {
 		es\p d2
 		es4 es es %135
 		es\f es es
-		d es es~
+		es es es~
 		es\p d2
 		es4 r es'\f
 		d r d %140
