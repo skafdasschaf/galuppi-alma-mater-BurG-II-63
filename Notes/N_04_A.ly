@@ -194,7 +194,7 @@ AlmaAltoLyrics = \lyricmode {
 TuQuaeAltoNotes = {
 	\relative c' {
 		\clef treble
-		\key es \major \time 3/4 \autoBeamOff \tempoTuQuae
+		\key es \lydian \time 3/4 \autoBeamOff \tempoTuQuae
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #124
 		

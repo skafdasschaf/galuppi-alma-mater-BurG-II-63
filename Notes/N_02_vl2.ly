@@ -142,7 +142,7 @@ AlmaViolinoII = {
 TuQuaeViolinoII = {
 	\relative c' {
 		\clef treble
-		\key es \major \time 3/4 \tempoTuQuae
+		\key es \lydian \time 3/4 \tempoTuQuae
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #124
 		

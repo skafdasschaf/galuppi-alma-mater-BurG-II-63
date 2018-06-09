@@ -264,10 +264,147 @@ AlmaBassFigures = \figuremode {
 TuQuaeOrgano = {
 	\relative c {
 		\clef bass
-		\key es \major \time 3/4 \tempoTuQuae
+		\key es \lydian \time 3/4 \tempoTuQuae
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #124
 		\mvTr es4\fE-\soloE r r
+		b r r %125
+		b c d
+		es b g
+		es\p r r
+		b' r r
+		b c d %130
+		es es es
+		es\f es es
+		es es es~
+		es\p d2
+		es4 es es %135
+		es\f es es
+		d es es~
+		es\p d2
+		es4 r es'\f
+		d r d %140
+		c r as
+		g r g\p
+		as b b,
+		es r es'\f
+		d r d %145
+		c r as
+		g r g
+		as b b,
+		es2 r4
+		es\p r r %150
+		b r r
+		b c d
+		es g b
+		es, r r
+		b r r %155
+		b c d
+		es b g
+		es es' es
+		es es es~
+		es d2 %160
+		es4 b g
+		es es' es
+		es es es~
+		es d2
+		es4 es es %165
+		es c f
+		r d b
+		c r f
+		b, b b
+		es es es %170
+		b b b
+		f' f f
+		b, d b
+		es es es
+		b b b %175
+		f' f f
+		b, b b
+		c c c
+		d d d
+		es es es %180
+		f r r
+		b,\f r b'
+		a r a
+		g r es\p
+		d r d %185
+		es f f,
+		b r b'\f
+		a r a
+		g r es\p
+		d r d %190
+		es f f
+		g r r
+		b,8\f es f4 f,
+		b r b
+		a r r %195
+		f' g a
+		b d b
+		es, f f,
+		b b'8.[ as16 g8. f16]
+		es4\pE r r %200
+		b r r
+		b c d
+		es b g
+		es r r
+		b' r r %205
+		b c d
+		es a,! a
+		b d f
+		b, r r
+		c r r %210
+		e e e
+		f as c
+		f,, r r
+		b r r
+		d d d %215
+		es r es
+		f r f
+		g r g
+		as r as,
+		b b b %220
+		b b b
+		b b b
+		b b b
+		b r r
+		es\f r es %225
+		d r d
+		c r as'\p
+		g g as
+		b b, b
+		es es es %230
+		es\f es\p es
+		es es es~
+		es d b
+		es es es
+		es\f es\p es %235
+		es es es~
+		es d b
+		es a,!2\fermata
+		b r4\fermata
+		es4\f r es %240
+		d r d
+		c r as'\p
+		g g as
+		b b, b
+		es\f r es %245
+		d r d
+		c r as'\p
+		g g as
+		b b b
+		c as\f g8 as %250
+		b4 b, b
+		c b a!
+		b2.\fermata
+		es4 r es
+		d r f %255
+		g r g
+		as b b,
+		c as' g8 as
+		b4 b, b
+		es es es %260
+		es r r\fermata \bar "||" %261 finis
 	}
 }
 
