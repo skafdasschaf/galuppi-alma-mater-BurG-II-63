@@ -11,7 +11,6 @@ AlmaViola = {
 			1/8
 			#'(4)
 			#'((end . (((1 . 16) . (4 4)))))
-% 		\clef treble
 		\clef alto
 		\key c \dorian \time 2/4 \tempoAlma
 		\grace s16 r8 g'\fE as d,
@@ -142,7 +141,6 @@ AlmaViola = {
 
 TuQuaeViola = {
 	\relative c' {
-% 		\clef treble
 		\clef alto
 		\key es \lydian \time 3/4 \tempoTuQuae
 			\override Staff.TimeSignature.style = #'single-digit
@@ -290,8 +288,7 @@ TuQuaeViola = {
 
 SumensViola = {
 	\relative c' {
-		\clef treble
-% 		\clef alto
+		\clef alto
 		\key c \dorian \time 2/2 \tempoSumens
 			\set Score.currentBarNumber = #262
 		r4 c\fE c h
