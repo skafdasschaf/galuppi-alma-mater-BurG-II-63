@@ -559,7 +559,7 @@ SumensOrgano = {
 		c,2-! es4-!\pE c-!
 		g-! r g h %265
 		c2 r4 fis
-		r8 as( g f es d c h)
+		r8 as([ g f es d c h)]
 		c2 r
 		f,4\f f'\p g g,
 		c2 r %270
