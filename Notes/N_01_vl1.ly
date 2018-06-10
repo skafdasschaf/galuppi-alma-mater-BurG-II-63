@@ -179,12 +179,12 @@ TuQuaeViolinoI = {
 		f r \tuplet 3/2 4 { as[ g f] es[ d c] } %155
 		b8[ r16 c'] \appoggiatura c4 b4. as8
 		g32( f es8.) es2
-		es'32( as c8.) c2
-		b16( as g f) es2
+		es'32(\f as c8.) c2
+		b16(\p as g f) es2
 		b32([ c d8.)] d32([ es f8.)] f32([ g as8.)] %160
 		as?32( g f8.) g4 r
-		es32( as c8.) c2
-		b16( as g f) es2
+		es32(\f as c8.) c2
+		b16(\pE as g f) es2
 		b32([ c d8.)] d32([ es f8.)] f32([ g as8.)]
 		as?32( g f8.) \appoggiatura f4 g2 %165
 		r4 g a!
@@ -194,7 +194,7 @@ TuQuaeViolinoI = {
 		g g' g, %170
 		f f' f,
 		es es' es,
-		d f' d,
+		d f' f,-\critnote
 		g g' g,
 		f f' f, %175
 		es es' es,
@@ -207,13 +207,13 @@ TuQuaeViolinoI = {
 		f8 r c16( d8.) d16( es8.)
 		es8 r g,16(\p a8.) a16( b8.)
 		b8 r \tuplet 3/2 4 { d[ c b] a[ g f] %185
-		g[ f es] } d4 c
-		r d'16(\f e8.) e16( f8.)
+		g[ f es] } \appoggiatura d4 c2-\critnote
+		r4 d'16(\f e8.) e16( f8.)
 		f8 r c16( d8.) d16( es8.)
 		es8 r g,16(\p a8.) a16( b8.)
 		b8 r \tuplet 3/2 4 { d[ c b] a[ g f] %190
-		g[ f es] } d4 c
-		b'~\f b8 c16-! d-! es-! f-! g-! a-!
+		g[ f es] } \appoggiatura d4 c2-\critnote
+		b'4~\f b8 c16-! d-! es-! f-! g-! a-!
 		b8. b,16 c2\trill
 		b8 r \tuplet 3/2 4 { b'[ a g] f[ es d] }
 		c r \tuplet 3/2 4 { es[ d c] b[ a g] } %195
@@ -255,7 +255,7 @@ TuQuaeViolinoI = {
 		es32(\mf as c8.) c2
 		b16(\p as g f) es2
 		b32([ c d8.)] d32([ es f8.)] f32([ g as8.)]
-		f8(-. es-. es-. es-. es-. es-.)
+		f8 es(-. es-. es-. es-. es-.)
 		es32(\f as c8.) c2 %235
 		b16(\p as g f) es2
 		b32([ c d8.)] d32([ es f8.)] f32([ g as8.)]
