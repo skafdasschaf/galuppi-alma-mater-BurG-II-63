@@ -207,12 +207,12 @@ TuQuaeViolinoII = {
 		f8 r c16( d8.) d16( es8.)
 		es8 r g,16(\p a8.) a16( b8.)
 		b8 r \tuplet 3/2 4 { d[ c b] a[ g f] %185
-		d[ c b] } \appoggiatura b4 a2
+		es[-\critnote d c] } \appoggiatura b4 a2
 		b8 r d'16(\f e8.) e16( f8.)
 		f8 r c16( d8.) d16( es8.)
 		es8 r g,16(\p a8.) a16( b8.)
 		b8 r \tuplet 3/2 4 { d[ c b] a[ g f] %190
-		d[ c b] } \appoggiatura b4 a2
+		es[ d c] } \appoggiatura b4 a2
 		b'4~\f b8 c16-! d-! es-! f-! g-! a-!
 		b8. b,16 b4 a
 		b8 r \tuplet 3/2 4 { b'[ a g] f[ es d] }
