@@ -147,6 +147,143 @@ TuQuaeViola = {
 		\key es \lydian \time 3/4 \tempoTuQuae
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #124
-		
+		g'4\fE r r
+		d r r %125
+		d es f
+		es32( f g8.) g2
+		g,4\p r r
+		d' r r
+		d es f %130
+		es g, g
+		es'\f es es
+		g g g
+		f2.\p
+		b,4 b b %135
+		es\f es es
+		g, g g
+		f2.\p
+		es4 r g'\f
+		f r f %140
+		es r f
+		b, r es\p
+		es es d
+		es r g\f
+		f r f %145
+		es r f
+		b, r es
+		es g f^\critnote
+		g2 r4
+		g\p r r %150
+		d r r
+		d es f
+		es g b
+		es, r r
+		b r r %155
+		b c d
+		es b g
+		es es' es
+		es es es~
+		es d2 %160
+		es4 b g
+		es es' es
+		es es es~
+		es d2
+		es4 es es %165
+		es c f
+		r d b
+		c r f
+		b, b b
+		es es es %170
+		b b b
+		f' f f
+		b, d b
+		es es es
+		b b b %175
+		f' f f
+		b, b b
+		c c c
+		d d d
+		es es es %180
+		f r r
+		d\f r d'
+		c r c
+		b r c\pE
+		f, r d %185
+		es f f,-\critnote
+		b r d'\f
+		c r c
+		b r c\pE
+		f, r d %190
+		es f f
+		d r r
+		f8\f g f4 f
+		d r d
+		f r r %195
+		a b c
+		f, f f
+		g8 es d4 c
+		d2 r4
+		g\p r r %200
+		d r r
+		d es f
+		es32( f g8.) g2
+		es4 r r
+		b r r %205
+		b c d
+		es a,! a
+		b d f
+		b, r r
+		c r r %210
+		e e e
+		f as c
+		f,, r r
+		b r r
+		d d d %215
+		es r es
+		f r f
+		g r g
+		as r as,
+		b b b %220
+		b b b
+		b b b
+		b b b
+		b r r
+		g'\fE r g %225
+		f r f
+		es r f\pE
+		b, es es
+		es b b
+		g'8(-. g-. g-. g-. g-. g-.) %230
+		es4\f es\p es
+		es es es~
+		es d b
+		es es es
+		es\f es\p es %235
+		es es es~
+		es d b
+		es a,!2\fermata
+		b r4\fermata
+		g'4\f r g %240
+		f r f
+		es r f\p
+		g r es
+		es b as?
+		g\f r g' %245
+		f r f
+		es r f\p
+		g es es
+		b b b
+		c\f as' g8 as %250
+		b4 b, b
+		c b a!
+		b2.\fermata
+		g'4 r b,
+		b r d %255
+		es r es
+		es es d
+		es es es
+		es es d
+		es es es %260
+		es r r\fermata \bar "||" %261 finis
 	}
 }
