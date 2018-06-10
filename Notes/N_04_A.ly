@@ -402,14 +402,15 @@ TuQuaeAltoLyrics = \lyricmode {
 	re. %254 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \dorian \time 2/4 \autoBeamOff \tempoAlma
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
+SumensAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 2/2 \autoBeamOff \tempoSumens
+			\set Score.currentBarNumber = #262
+		
+	}
+}
+
+SumensAltoLyrics = \lyricmode {
+	
+}

@@ -168,6 +168,7 @@ tempoMarkup =
 
 tempoAlma = \tempoMarkup "Andantino"
 tempoTuQuae = \tempoMarkup "Allegro"
+tempoSumens = \tempoMarkup "Largo"
 
 
 % modify the Scheme function 'format-bass-figure'

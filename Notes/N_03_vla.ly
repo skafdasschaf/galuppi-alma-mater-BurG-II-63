@@ -287,3 +287,12 @@ TuQuaeViola = {
 		es r r\fermata \bar "||" %261 finis
 	}
 }
+
+SumensViola = {
+	\relative c' {
+		\clef treble
+% 		\clef alto
+		\key c \dorian \time 2/2 \tempoSumens
+			\set Score.currentBarNumber = #262
+	}
+}

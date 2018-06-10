@@ -286,10 +286,10 @@ TuQuaeViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \minor \time 4/4 \tempo
-% 		
-% 	}
-% }
+SumensViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 2/2 \tempoSumens
+			\set Score.currentBarNumber = #262
+	}
+}

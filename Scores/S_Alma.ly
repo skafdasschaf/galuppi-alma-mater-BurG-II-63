@@ -59,9 +59,52 @@
 % 			\midi { \tempo 4 = 80 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "2 TU QUAE GENUISTI"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\TuQuaeViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\TuQuaeViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\TuQuaeViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Soprano" { \dynamicUp \TuQuaeAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \TuQuaeAltoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\TuQuaeOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\TuQuaeBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 120 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "2 TU QUAE GENUISTI"
+			movement = "3 SUMENS ILLUD AVE"
 		}
 		\score {
 			<<
@@ -69,37 +112,37 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\TuQuaeViolinoI
+							\SumensViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\TuQuaeViolinoII
+							\SumensViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\TuQuaeViola
+						\SumensViola
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Soprano" { \dynamicUp \TuQuaeAltoNotes }
+						\new Voice = "Soprano" { \dynamicUp \SumensAltoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \TuQuaeAltoLyrics
+					\new Lyrics \lyricsto Soprano \SumensAltoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\TuQuaeOrgano
+						\SumensOrgano
 					}
 				>>
 				\new FiguredBass {
-					\TuQuaeBassFigures
+					\SumensBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 120 }
+			\midi { \tempo 2 = 80 }
 		}
 	}
 }

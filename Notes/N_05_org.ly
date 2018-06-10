@@ -549,14 +549,15 @@ TuQuaeBassFigures = \figuremode {
 	r %261 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		\key c \dorian \time 2/4 \tempoAlma
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+SumensOrgano = {
+	\relative c {
+		\clef bass
+		\key c \dorian \time 2/2 \tempoSumens
+			\set Score.currentBarNumber = #262
+		\mvTr c4\fE-\soloE es f g
+	}
+}
+
+SumensBassFigures = \figuremode {
+	
+}

@@ -285,3 +285,11 @@ TuQuaeViolinoII = {
 		<es b' g'>r r\fermata \bar "||" %261 finis
 	}
 }
+
+SumensViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 2/2 \tempoSumens
+			\set Score.currentBarNumber = #262
+	}
+}
