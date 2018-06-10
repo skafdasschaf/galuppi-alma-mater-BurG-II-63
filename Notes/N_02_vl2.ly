@@ -291,5 +291,60 @@ SumensViolinoII = {
 		\clef treble
 		\key c \dorian \time 2/2 \tempoSumens
 			\set Score.currentBarNumber = #262
+		g'4\fE c, d4.( es16 f)
+		es32( f g8.) c,8( es) d4.( es16 f)
+		es32( f g8.) c,4 r es(\p
+		d2) r4 \once \slurDashed f( %265
+		es2) r4 c'
+		c h r2
+		r8 as'([ g f es d c)] g,-!\f
+		a!4 f'8\p d \appoggiatura c4 d2\trill
+		r8 as''([ g f es d c)] g,-!\f %270
+		a!4. f'16(\pE d) \appoggiatura c4 h2\trill
+		c4 g' c,2
+		r4 g'-!\p d-! d-!
+		r g-! d-! d-!
+		es8 g g es c4 r %275
+		r f-! f-! f-!
+		f-! es-! es-! es-!
+		d r r g(
+		f2) r4 as(
+		g2) r4 es %280
+		r8 c'([ b as g f es)] h\f
+		c4 as'\p f f
+		g8 r as4~\f as8 g4\p f8
+		b,4 r8 as'4\fE g\pE f8
+		f4 es2 r4 %285
+		r8 \once \slurDashed c'[( b as g f es]) h\f
+		c4 es2\p d4
+		es\f es'2 d4\trill
+		es16( b) b8~ b16[ g as f] g([ es b' g)] c as g f
+		a,!4 c'16( g f es) b8. es16 f4\trill %290
+		es4 b es2
+		r4 b-!\pE c-! d-!
+		r b c d
+		r d es as
+		f8 b f d b4 r %295
+		f'1
+		e4 e e e
+		f f f f
+		g g g g
+		c, g'-! h-! c-! %300
+		r8 as'([ g f es d c)] g,\f
+		a!4 as'\p d, d
+		es8 r as4\f g2\p
+		g8 r as4\f g2\p
+		g4-! g-! c-! c-! %305
+		h-\parenthesize-! r r es,(
+		d2) r4 f(
+		es2) r4 c'
+		r8 as'([ g f es d c]) g,\f
+		a!4 c'2\p h4 %310
+		r8 as'([ g f es d c)] g,\f
+		a!4 c'2\p h4
+		g'16([ es c g')] as( f c as') g([ es c g')] as( f es d)
+		g,,2 r\fermata
+		c8\f c' c, c c c' c, c %315
+		c2 r\fermata \bar "|." %316 FINIS
 	}
 }

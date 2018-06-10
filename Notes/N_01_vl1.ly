@@ -295,8 +295,8 @@ SumensViolinoI = {
 		es32( f g8.) c,8( es) d4.( es16 f)
 		es32( f g8.) c,4 c'8\p c4 c8~
 		c h4 cis8( d) d4 d8~ %265
-		d c4 d8 es es4 es8
-		es( c) d4 r2
+		d c4 \once \slurDashed d8( es) es4 es8
+		es4 d r2
 		r8 as'([ g f es d c)] g,-!\f
 		a!4 f'8\p d \appoggiatura c4 d2\trill
 		r8 as''([ g f es d c)] g,-!\f %270
@@ -315,7 +315,7 @@ SumensViolinoI = {
 		es8 r c4~\f c8 b4\p as8
 		as4 g8 c4\fE b\pE as8
 		as4\trill-! g2-! r4 %285
-		r8 c[ b as g f es] h\f
+		r8 \once \slurDashed c[( b as g f es]) h\f
 		c4 as'8\p g16 f \appoggiatura { es[ f]} f2\trill
 		es'16(\f b8.) c32( as16. g32 f16.) g4 f\trill
 		es'16( b) b8~ b16[ g as f] g([ es b' g)] c as g f
