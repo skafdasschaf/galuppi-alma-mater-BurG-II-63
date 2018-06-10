@@ -291,5 +291,60 @@ SumensViolinoI = {
 		\clef treble
 		\key c \dorian \time 2/2 \tempoSumens
 			\set Score.currentBarNumber = #262
+		g'4\fE c, d4.( es16 f)
+		es32( f g8.) c,8( es) d4.( es16 f)
+		es32( f g8.) c,4 c'8\p c4 c8~
+		c h4 cis8( d) d4 d8~ %265
+		d c4 d8 es es4 es8
+		es( c) d4 r2
+		r8 as'([ g f es d c)] g,-!\f
+		a!4 f'8\p d \appoggiatura c4 d2\trill
+		r8 as''([ g f es d c)] g,-!\f %270
+		a!4. f'16(\pE d) \appoggiatura c4 h2\trill
+		c4 g' c,2
+		r4 c'-!\p c-! h-!
+		r c-! c-! h-!
+		c8 g g es c4 r %275
+		r as'-! as-! as-!
+		as?-! g-! c-! c-!
+		f, r \appoggiatura d16 es4 \appoggiatura d16 es4
+		es8( cis d e) \appoggiatura e16 f4 \appoggiatura e16 f4
+		f8( d es f) \appoggiatura fis16 g4 \appoggiatura fis16 g4 %280
+		r8 c([ b as g f es)] h\f
+		c4 es'2\p d4
+		es8 r c4~\f c8 b4\p as8
+		as4 g8 c4\fE b\pE as8
+		as4\trill-! g2-! r4 %285
+		r8 c[ b as g f es] h\f
+		c4 as'8\p g16 f \appoggiatura { es[ f]} f2\trill
+		es'16(\f b8.) c32( as16. g32 f16.) g4 f\trill
+		es'16( b) b8~ b16[ g as f] g([ es b' g)] c as g f
+		a,!4 c'16( g f es) b8. es16 f4\trill %290
+		es4 b es2
+		b'16(\p es,8.) es4 f4. \once \slurDashed g16( as)
+		b( es,8.) es4 f4. g16( as)
+		g8.(\trill f32 g) as8.(\trill g32 as) b8.(\trill as32 b) c8( es)
+		d b f d b4 r %295
+		d'1
+		des4 des des des
+		c c c c
+		b b b b
+		as c-! d-! es-! %300
+		r8 as([ g f es d c)] g,\f
+		a!4 c'2\p h4
+		c8 r f4~\f f\p es8( d)
+		es r f4~\f f\p es8( d)
+		es4-! es-! es-! es-! %305
+		d-! r c8 c4 c8~
+		c h4 cis8( d) d4 d8~
+		d c4 d8( es) es4 es8
+		r as([ g f es d c]) g,\f
+		a!4 \once \slurDashed f''8(\p es16 d) \appoggiatura { c[ d] } d2\trill %310
+		r8 as'([ g f es d c)] g,\f
+		a!4 f''8(\p es16 d) \appoggiatura { c[ d] } d2\trill
+		g16([ es c g')] as( f c as') g([ es c g')] as( f es d)
+		g,,2 r\fermata
+		c8\f c' c, c c c' c, c %315
+		c2 r\fermata \bar "|." %316 FINIS
 	}
 }

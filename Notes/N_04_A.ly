@@ -415,7 +415,7 @@ SumensAltoNotes = {
 		\tuplet 3/2 4 { as([ fis? g)] } g8.([ c16)] c4. es,8
 		d32([ c b8.)] b8 r \appoggiatura d16 es4 \appoggiatura d16 es4
 		es d8.([ e16)] \appoggiatura e f4 \appoggiatura e16 f4
-		f es8.([ f16)] g4 g %280
+		f es8.([ f16)] \appoggiatura fis g4^\critnote \appoggiatura fis16 g4 %280
 		\appoggiatura as8 g4 f r2
 		c4( as'8) g16([ f)] \appoggiatura { es[ f] } f2\trill
 		es4 c'~ c8( b4) as8
@@ -423,7 +423,7 @@ SumensAltoNotes = {
 		\tuplet 3/2 4 { as8([ fis g)] } g2. %285
 		R1
 		c,4( \appoggiatura b'16 as8) g16([ f)] \appoggiatura { es[ f] } f2\trill
-		es'16([ b8.)] c16([ as8.)] g16([ f8.)] b,16([ f'8.)]\trill
+		es'16([ b8.)] c32([ as16.)] g32([ f16.)] b,8( f'4.)\trill
 		es2 r
 		R1*2 %291
 		b'16([ es,8.)] es4 f4. g16([ as)]
@@ -444,9 +444,9 @@ SumensAltoNotes = {
 		\appoggiatura d8 c4 h r d8 f16([ d)]
 		\appoggiatura es8 d4 c r es8 c'16([ es,)]
 		\appoggiatura f8 es4 d r2
-		a!4( f'8) es16([ d)] d2\trill %310
+		a!4( f'8) es16([ d)] \appoggiatura { c[ d] } d2\trill-\critnote %310
 		c4 r r2
-		a!4( f'8) es16([ d)] \appoggiatura { c16[ d] } d2\trill
+		a!4( f'8) es16([ d)] \appoggiatura { c[ d] } d2\trill
 		c'1~
 		c8([ as)] g f es4.(\trill d16[ c)]
 		c2 r %315
