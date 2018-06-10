@@ -555,6 +555,60 @@ SumensOrgano = {
 		\key c \dorian \time 2/2 \tempoSumens
 			\set Score.currentBarNumber = #262
 		\mvTr c4\fE-\soloE es f g
+		c, es f g
+		c,2-! es4-!\pE c-!
+		g-! r g h %265
+		c2 r4 fis
+		r8 as( g f es d c h)
+		c2 r
+		f,4\f f'\p g g,
+		c2 r %270
+		f,4\f f'\pE g g,
+		c2 r
+		r4 es-! f-! g-!
+		c,-! es-! f-! g-!
+		c,-! c-! c,2 %275
+		r4 d'-! d-! d-!
+		es-! es-! as,-! as-!
+		b2-! r4 b
+		b2 r4 b
+		b2 r4 b %280
+		b2 r
+		as4\f as'\p b b,
+		es r d2\fp
+		es4 r d2\fp
+		es4 es es,2 %285
+		R1
+		as4 as' b b,
+		g'\f as b b,
+		es b es as,
+		a a b b %290
+		es2 r
+		r4 g\pE as b
+		r g as b
+		es, f g as
+		b b, b2 %295
+		h4 h h h
+		b b b b
+		as as as' as
+		e e e e
+		f-! es-! d-! c-! %300
+		g2-! r
+		f4 f' g g,
+		c r h2\fp
+		c4 r h2\fp
+		c4 c fis, fis %305
+		g r es' c
+		g r h g
+		c r c' fis,
+		g2 r
+		f,4\fE f'\pE g g, %310
+		as r r2
+		f4\fE f'\pE g g,
+		es' f es f
+		g1\fermata
+		c,8\f c' c, c c c' c, c %315
+		c2 r\fermata \bar "|." %316 FINIS
 	}
 }
 
