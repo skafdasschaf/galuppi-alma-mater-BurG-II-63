@@ -407,10 +407,94 @@ SumensAltoNotes = {
 		\clef treble
 		\key c \dorian \time 2/2 \autoBeamOff \tempoSumens
 			\set Score.currentBarNumber = #262
-		
+		R1*11 %272
+		\mvTr g'4\pE^\soloE c, d4. es16([ f)]
+		es32([ d c8.)] c4 d4. es16([ f)]
+		es32([ d c8.)] c4 r c8. as'16 %275
+		as4 b, b4. as'8
+		\tuplet 3/2 4 { as([ fis? g)] } g8.([ c16)] c4. es,8
+		d32([ c b8.)] b8 r \appoggiatura d16 es4 \appoggiatura d16 es4
+		es d8.([ e16)] \appoggiatura e f4 \appoggiatura e16 f4
+		f es8.([ f16)] g4 g %280
+		\appoggiatura as8 g4 f r2
+		c4( as'8) g16([ f)] \appoggiatura { es[ f] } f2\trill
+		es4 c'~ c8( b4) as8
+		\tuplet 3/2 4 { as8([ fis g)] } g c4( b) as8
+		\tuplet 3/2 4 { as8([ fis g)] } g2. %285
+		R1
+		c,4( \appoggiatura b'16 as8) g16([ f)] \appoggiatura { es[ f] } f2\trill
+		es'16([ b8.)] c16([ as8.)] g16([ f8.)] b,16([ f'8.)]\trill
+		es2 r
+		R1*2 %291
+		b'16([ es,8.)] es4 f4. g16([ as)]
+		b([ es,8.)] es4 f4. g16([ as)]
+		g8.([\trill f32 g)] as8.([\trill g32 as)] b8.([\trill as32 b)] c8 es,
+		d32([ c b8.)] b4 r f'8 f %295
+		f4( d'~ d16[ c)] h([ as]) as32([ g16.)] g32([ f16.)]
+		\appoggiatura f4 e2~ e16[ des' c b] as[ g f e]
+		\appoggiatura e?4 f2~ f16([ c')] c([ as?)] as([ g)] g([ fis)]
+		\appoggiatura fis?4 g2 c,32([ d e f g as b c)] des8[ c16 b]
+		as8.([ c32 as)] g8.([ c32 g)] f8.([ g32 f)] es8.([ c'32 es,)] %300
+		\appoggiatura es4 d2 r
+		a!4( f'8) es16([ d)] \appoggiatura { c16[ d] } d2\trill
+		c4 as'~ as16([ g)] g([ d')] d([ as)] g([ f)]
+		es32([ d c16)] c8 r as'~ as16([ g)] g([ d')] d([ as)] g([ f)]
+		\appoggiatura f2 es1\trill %305
+		d2 r4 c8 es16([ c)]
+		\appoggiatura d8 c4 h r d8 f16([ d)]
+		\appoggiatura es8 d4 c r es8 c'16([ es,)]
+		\appoggiatura f8 es4 d r2
+		a!4( f'8) es16([ d)] d2\trill %310
+		c4 r r2
+		a!4( f'8) es16([ d)] \appoggiatura { c16[ d] } d2\trill
+		c'1~
+		c8([ as)] g f es4.(\trill d16[ c)]
+		c2 r %315
+		R1\fermataMarkup \bar "|." %316 FINIS
 	}
 }
 
 SumensAltoLyrics = \lyricmode {
+	Su -- mens il -- lud %273
+	A -- ve, il -- lud
+	A -- ve, su -- mens %275
+	il -- lud, il -- lud
+	A -- ve, il -- lud
+	A -- ve, pec -- ca --
+	to -- rum mi -- se --
+	re -- re, mi -- se -- %280
+	re -- re,
+	mi -- se -- re --
+	re, pec -- ca --
+	to -- rum, pec -- ca --
+	to -- rum %285
 	
+	mi -- se -- re --
+	re, mi -- se -- re --
+	re.
+	
+	Al -- ma Re -- dem -- %292
+	pto -- ris, Re -- dem --
+	pto -- _ _ _ ris
+	Ma -- ter: Pec -- ca -- %295
+	to -- rum mi -- se --
+	re -- _
+	_ _ _ _
+	_ _ _
+	_ _ _ _ %300
+	re,
+	mi -- se -- re --
+	re. Al -- ma Re -- dem --
+	pto -- ris, Re -- dem -- pto -- ris
+	Ma -- %305
+	ter: Pec -- ca --
+	to -- rum mi -- se --
+	re -- re, mi -- se --
+	re -- re,
+	mi -- se -- re -- %310
+	re,
+	mi -- se -- re --
+	re, __
+	mi -- se -- re --
+	re. %315 FINIS
 }

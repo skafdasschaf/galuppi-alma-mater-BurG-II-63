@@ -579,7 +579,7 @@ SumensOrgano = {
 		es4 r d2\fp
 		es4 es es,2 %285
 		R1
-		as4 as' b b,
+		as4\fE as'\pE b b,
 		g'\f as b b,
 		es b es as,
 		a a b b %290
@@ -594,7 +594,7 @@ SumensOrgano = {
 		e e e e
 		f-! es-! d-! c-! %300
 		g2-! r
-		f4 f' g g,
+		f4\fE f'\pE g g,
 		c r h2\fp
 		c4 r h2\fp
 		c4 c fis, fis %305
