@@ -261,8 +261,8 @@ tempoSumens = \tempoMarkup "Largo"
 		\StaffGroup
 		\override SystemStartBracket.collapse-height = #1
 		\override StaffGrouper.staffgroup-staff-spacing =
-		  #'((basic-distance . 15)
-         (minimum-distance . 15)
+		  #'((basic-distance . 12)
+         (minimum-distance . 12)
          (padding . -100)
          (stretchability . 0))
 		\override StaffGrouper.staff-staff-spacing =
@@ -274,8 +274,8 @@ tempoSumens = \tempoMarkup "Largo"
 	\context {
 		\ChoirStaff
 		\override StaffGrouper.staffgroup-staff-spacing =
-		  #'((basic-distance . 15)
-         (minimum-distance . 15)
+		  #'((basic-distance . 12)
+         (minimum-distance . 12)
          (padding . -100)
          (stretchability . 0))
 		\override StaffGrouper.staff-staff-spacing =
