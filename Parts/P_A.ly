@@ -7,8 +7,47 @@
 \include "../definitions.ly"
 
 \paper {
-	first-page-number = #1
-	systems-per-page = #2
+	#(set-paper-size "a4" 'portrait)
+	indent = 2\cm
+	top-margin = 1.5\cm
+	system-separator-markup = ##f
+	system-system-spacing =
+    #'((basic-distance . 20)
+       (minimum-distance . 20)
+       (padding . -100)
+       (stretchability . 0))
+	
+	top-system-spacing =
+    #'((basic-distance . 15)
+       (minimum-distance . 15)
+       (padding . -100)
+       (stretchability . 0))
+	
+	top-markup-spacing =
+    #'((basic-distance . 0)
+       (minimum-distance . 0)
+       (padding . -100)
+       (stretchability . 0))
+		
+	markup-system-spacing =
+    #'((basic-distance . 15)
+       (minimum-distance . 15)
+       (padding . -100)
+       (stretchability . 0))
+	
+	last-bottom-spacing =
+    #'((basic-distance . 0)
+       (minimum-distance . 0)
+       (padding . 0)
+       (stretchability . 1.0e7))
+	systems-per-page = #6
+}
+
+\layout {
+	\context {
+		\Lyrics
+		\override LyricText.font-size = #-.5
+	}
 }
 
 #(set-global-staff-size 15.87)
@@ -20,27 +59,9 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\AlmaViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\AlmaViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\AlmaViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \AltoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\set Staff.instrumentName = "Alto"
 						\new Voice = "Alto" { \dynamicUp \AlmaAltoNotes }
 					}
 					\new Lyrics \lyricsto Alto \AlmaAltoLyrics
@@ -55,8 +76,6 @@
 					\AlmaBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 80 }
 		}
 	}
 	\bookpart {
@@ -65,22 +84,6 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\TuQuaeViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\TuQuaeViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\TuQuaeViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
@@ -98,8 +101,6 @@
 					\TuQuaeBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 120 }
 		}
 	}
 	\bookpart {
@@ -108,22 +109,6 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\SumensViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\SumensViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\SumensViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
@@ -141,8 +126,6 @@
 					\SumensBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 2 = 40 }
 		}
 	}
 }
