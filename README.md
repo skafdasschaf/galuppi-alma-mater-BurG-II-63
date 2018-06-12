@@ -31,13 +31,13 @@ The file *master.ly* allows you to work with an editor like Kile: Change the inc
     * N_01_vl1.ly
     * N_02_vl2.ly
     * N_03_vla.ly
-    * N_04_S.ly
+    * N_04_A.ly
     * N_05_org.ly
 * Movement definitions in folder *Scores*:
     * S_AlmaMater.ly
 * Parts definitions in folder *Parts*:
+    * P_A.ly
     * P_b.ly
-    * P_S.ly
     * P_org.ly
     * P_vla.ly
     * P_vl1.ly

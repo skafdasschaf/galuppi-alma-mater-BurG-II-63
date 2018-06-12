@@ -6,8 +6,8 @@
 # change the following variables according to your project
 project = Galuppi_Alma_redemptoris_mater_BurG_II_63
 zipname = Galuppi_Alma_redemptoris_mater_BurG_II_63_Engraving_Files
-notes = vl1 vl2 vla S org
-parts = b org S vla vl1 vl2
+notes = A vl1 vl2 vla org
+parts = A b org vla vl1 vl2
 movements = Alma
 
 
